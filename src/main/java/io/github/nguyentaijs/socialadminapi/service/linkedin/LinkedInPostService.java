@@ -1,9 +1,8 @@
 package io.github.nguyentaijs.socialadminapi.service.linkedin;
 
 import io.github.nguyentaijs.socialadminapi.entity.linkedin.LinkedInPostHistory;
-
-import java.util.List;
+import org.springframework.data.domain.Page;
 
 public interface LinkedInPostService {
-    List<LinkedInPostHistory> getAllPosts();
+    Page<LinkedInPostHistory> getAllPosts(int page, int size);
 }
