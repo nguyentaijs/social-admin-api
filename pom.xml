@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.github.nguyentaijs</groupId>
 	<artifactId>social-admin-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>social-admin-api</name>
 	<description>social-admin-api</description>
 	<url/>
