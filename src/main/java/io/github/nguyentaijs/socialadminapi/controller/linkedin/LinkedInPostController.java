@@ -23,4 +23,24 @@ public class LinkedInPostController {
     ) {
         return service.getAllPosts(page, size);
     }
+
+    @GetMapping("/today/posts")
+    public long countTodayPosts() {
+        return service.countTodayPosts();
+    }
+
+    @GetMapping("/today/likes")
+    public long countTodayLikes() {
+        return service.countTodayLikes();
+    }
+
+    @GetMapping("/today/connects")
+    public long countTodayConnects() {
+        return service.countTodayConnects();
+    }
+
+    @GetMapping("/today/comments")
+    public long countTodayComments() {
+        return service.countTodayComments();
+    }
 }

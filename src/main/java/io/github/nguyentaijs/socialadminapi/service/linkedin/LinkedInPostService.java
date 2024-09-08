@@ -5,4 +5,12 @@ import org.springframework.data.domain.Page;
 
 public interface LinkedInPostService {
     Page<LinkedInPostHistory> getAllPosts(int page, int size);
+
+    long countTodayPosts();
+
+    long countTodayLikes();
+
+    long countTodayConnects();
+
+    long countTodayComments();
 }
