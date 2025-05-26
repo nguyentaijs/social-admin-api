@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Document(collection = "linkedin-post")
+@Document(collection = "linkedin-post-nguyet")
 public class LinkedInPostHistory {
     @Id
     private ObjectId id;

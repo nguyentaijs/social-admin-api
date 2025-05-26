@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 @NoArgsConstructor
-@Document(collection = "linkedin-user")
+@Document(collection = "linkedin-user-nguyet")
 public class LinkedInUser {
     @Id
     private ObjectId id;
